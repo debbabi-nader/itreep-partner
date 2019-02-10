@@ -1,0 +1,1489 @@
+{
+    "SIGN_IN": {
+        "FORM": {
+            "INPUTS": {
+                "EMAIL": {
+                    "LABEL": "Adresse email",
+                    "PLACEHOLDER": "Adresse email",
+                    "ERRORS": {
+                        "INVALID": "Adresse email invalide",
+                        "REQUIRED": "Ce champ est nécessaire"
+                    } 
+                },
+                "PASSWORD": {
+                    "LABEL": "Mot de passe",
+                    "PLACEHOLDER": "Mot de passe",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    } 
+                }
+            },
+            "BUTTONS": {
+                "SUBMIT": {
+                    "LABEL": "SE CONNECTER"
+                }
+            }
+        },
+        "TEXT": {
+            "SIGN_UP": {
+                "MESSAGE": "Vous n'avez pas un compte? ",
+                "LINK": "Créez un!"
+            },
+            "FORGOT_PASSWORD": {
+                "LINK": "Mot de passe oublié?"
+            }
+        },
+        "TOASTS": {
+            "SIGN_IN_SUCCESS_TOAST": {
+                "TITLE": "Authentifié avec succès",
+                "MESSAGE": "Bienvenu à iTreep"
+            },
+            "SIGN_IN_FAIL_TOAST": {
+                "TITLE": "Echec d'authentification",
+                "MESSAGE": "La combinaison adresse email et mot de passe est incorrecte"
+            }
+        }
+    },
+    "EMAIL_SUBMISSION": {
+        "FORM": {
+            "INPUTS": {
+                "EMAIL": {
+                    "LABEL": "Adresse email",
+                    "PLACEHOLDER": "Adresse email",
+                    "ERRORS": {
+                        "INVALID": "Adresse email invalide",
+                        "REQUIRED": "Ce champ est nécessaire"
+                    } 
+                }
+            },
+            "BUTTONS": {
+                "SUBMIT": {
+                    "LABEL": "ENVOYER"
+                }
+            }
+        },
+        "TEXT": {
+            "BACK_TO_SIGN_IN": {
+                "MESSAGE": "",
+                "LINK": "Se connecter!"
+            },
+            "EMAIL_SUBMISSION_SUCCESS": {
+                "TITLE": "Vérifiez votre boîte email!",
+                "MESSAGE": "Un email avec un lien vers une page de réinitialisation du mot de passe vous a été envoyé."
+            }
+        },
+        "TOASTS": {
+            "EMAIL_SUBMISSION_FAIL_TOAST": {
+                "TITLE": "Opération échouée",
+                "MESSAGE": "L'adresse email donnée est incorrecte"
+            }
+        }
+    },
+    "RESET_PASSWORD": {
+        "FORM": {
+            "INPUTS": {
+                "EMAIL": {
+                    "LABEL": "Adresse email",
+                    "PLACEHOLDER": "Adresse email",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire",
+                        "INVALID": "Adresse email invalide"
+                    } 
+                },
+                "NEW_PASSWORD": {
+                    "LABEL": "Nouveau mot de passe",
+                    "PLACEHOLDER": "Nouveau mot de passe",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    } 
+                },
+                "PASSWORD_CONFIRMATION": {
+                    "LABEL": "Confirmation du mot de passe",
+                    "PLACEHOLDER": "Confirmation du mot de passe",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire",
+                        "DIFFERENT": "Ne correspond pas au mot de passe saisi"
+                    } 
+                }
+            },
+            "BUTTONS": {
+                "SUBMIT": {
+                    "LABEL": "RÉINITIALISER"
+                }
+            }
+        },
+        "TEXT": {
+            "BACK_TO_SIGN_IN": {
+                "MESSAGE": "",
+                "LINK": "Se connecter!"
+            },
+            "PASSWORD_RESET_SUCCESS": {
+                "TITLE": "Votre mot de passe a été réinitialisé avec succès!",
+                "MESSAGE": "Vous pouvez vous connecter à votre compte."
+            }
+        }
+    },
+    "SIGN_UP": {
+        "FORM": {
+            "INPUTS": {
+                "FULL_NAME": {
+                    "LABEL": "Nom et prénom",
+                    "PLACEHOLDER": "Nom et prénom",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "PERSON_IN_CHARGE": {
+                    "LABEL": "Personne en charge",
+                    "PLACEHOLDER": "Personne en charge",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "EMAIL": {
+                    "LABEL": "Adresse email",
+                    "PLACEHOLDER": "Adresse email",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire",
+                        "INVALID": "Adresse email invalide"
+                    }
+                },
+                "PASSWORD": {
+                    "LABEL": "Mot de passe",
+                    "PLACEHOLDER": "Mot de passe",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "PASSWORD_CONFIRMATION": {
+                    "LABEL": "Confirmation du mot de passe",
+                    "PLACEHOLDER": "Confirmation du mot de passe",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire",
+                        "DIFFERENT": "Ne correspond pas au mot de passe saisi"
+                    } 
+                },
+                "TOWN": {
+                    "LABEL": "Pays",
+                    "PLACEHOLDER": "Pays",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "GOVERNORATE": {
+                    "LABEL": "Governorat",
+                    "PLACEHOLDER": "Governorat",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "ZIP_CODE": {
+                    "LABEL": "Code ZIP",
+                    "PLACEHOLDER": "Code ZIP",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "ADDRESS": {
+                    "LABEL": "Adresse",
+                    "PLACEHOLDER": "Adresse",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "PROFILE_PICTURE": {
+                    "LABEL": "Photo de profil",
+                    "ERRORS": {}
+                },
+                "DATE_OF_BIRTH": {
+                    "LABEL": "Date de naissance",
+                    "PLACEHOLDER": "Date de naissance",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "TEL": {
+                    "LABEL": "Num. Tel.",
+                    "PLACEHOLDER": "Num. Tel.",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire"
+                    }
+                },
+                "BANK_CARD_NUMBER": {
+                    "LABEL": "Numéro de carte bancaire",
+                    "PLACEHOLDER": "Numéro de carte bancaire",
+                    "ERRORS": {
+                        "REQUIRED": "Ce champ est nécessaire",
+                        "INVALID": "Le numéro de carte bancaire doit avoir entre 13 et 19 chiffres, sans espaces et sans charactères"
+                    }
+                }
+            },
+            "BUTTONS": {
+                "NEXT": {
+                    "LABEL": "SUIVANT"
+                },
+                "PREVIOUS": {
+                    "LABEL": "PRÉCEDENT"
+                },
+                "SUBMIT": {
+                    "LABEL": "CRÉER UN COMPTE"
+                }
+            }
+        },
+        "TEXT": {
+            "SIGN_IN": {
+                "MESSAGE": "Déjà un membre?",
+                "LINK": "Connectez vous!"
+            },
+            "SIGN_UP_SUCCESS": {
+                "TITLE": "Votre compte a été créé avec succès!",
+                "MESSAGE": "Vous pouvez commencer à utiliser iTreep, dès que votre compte sera activé.",
+                "LINK": "Se connecter"
+            }
+        }
+    },
+    "APP_LAYOUT": {
+        "HEADER": {
+            "USER_AVATAR": {
+                "TITLE": "Partenaire"
+            }
+        },
+        "SIDEBAR": {
+            "MENU": {
+                "ITEMS": {
+                    "DASHBORAD_ITEM": {
+                        "TITLE": "Tableau de Bord"
+                    },
+                    "DRIVERS_ITEM": {
+                        "TITLE": "Chauffeurs"
+                    },
+                    "CARS_ITEM": {
+                        "TITLE": "Véhicules"
+                    },
+                    "MIGRATION_ITEM": {
+                        "TITLE": "Migration"
+                    }
+                }
+            }
+        },
+        "USER_MENU": {
+            "ITEMS": {
+                "EDIT_PROFILE_ITEM": {
+                    "TITLE": "Gérer Profil"
+                },
+                "COMPLAINTS_ITEM": {
+                    "TITLE": "Plaintes"
+                },
+                "SIGN_OUT_ITEM": {
+                    "TITLE": "Se Deconnecter"
+                }
+            }
+        },
+        "FOOTER": {
+            "LANGUAGE_SELECT": {
+                "PLACEHOLDER": "Langages",
+                "OPTIONS": {
+                    "ENGLISH_OPTION": "Anglais",
+                    "FRENCH_OPTION": "Français"
+                }
+            }
+        }
+    },
+    "EDIT_PROFILE": {
+        "SUBHEADER": {
+            "ACTIVE_ROUTE": "GÉRER PROFIL",
+            "ACTIONS": {}
+        },
+        "CONTENT": {
+            "TEXT": {
+                "TITLE": "Partenaire",
+                "PERSON_IN_CHARGE": "Personne en charge",                
+                "TOWN": "Pays",
+                "GOVERNORATE": "Governorat",
+                "ZIP_CODE": "Code ZIP",
+                "ADDRESS": "Adresse",
+                "DATE_OF_BIRTH": "Date de naissance",
+                "TEL": "Num. Tel.",
+                "BANK_CARD_NUMBER": "Numéro de carte bancaire",
+                "MISSING_INFO": "Non mentionné",
+                "PASSWORD_RESET_LINK": "Réinitialiser le mot de passe"
+            },
+            "FORM": {
+                "INPUTS": {
+                    "FULL_NAME": {
+                        "LABEL": "Nom et prénom",
+                        "PLACEHOLDER": "Nom et prénom",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "PERSON_IN_CHARGE": {
+                        "LABEL": "Personne en charge",
+                        "PLACEHOLDER": "Personne en charge",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "PASSWORD": {
+                        "LABEL": "Mot de passe",
+                        "PLACEHOLDER": "Mot de passe",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "TOWN": {
+                        "LABEL": "Pays",
+                        "PLACEHOLDER": "Pays",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "GOVERNORATE": {
+                        "LABEL": "Governorat",
+                        "PLACEHOLDER": "Governorat",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "ZIP_CODE": {
+                        "LABEL": "Code ZIP",
+                        "PLACEHOLDER": "Code ZIP",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "ADDRESS": {
+                        "LABEL": "Adresse",
+                        "PLACEHOLDER": "Adresse",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "PROFILE_PICTURE": {
+                        "LABEL": "Photo de profil",
+                        "ERRORS": {}
+                    },
+                    "DATE_OF_BIRTH": {
+                        "LABEL": "Date de naissance",
+                        "PLACEHOLDER": "Date de naissance",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "TEL": {
+                        "LABEL": "Num. Tel.",
+                        "PLACEHOLDER": "Num. Tel.",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire"
+                        }
+                    },
+                    "BANK_CARD_NUMBER": {
+                        "LABEL": "Numéro de carte bancaire",
+                        "PLACEHOLDER": "Numéro de carte bancaire",
+                        "ERRORS": {
+                            "REQUIRED": "Ce champ est nécessaire",
+                            "INVALID": "Le numéro de carte bancaire doit avoir entre 13 et 19 chiffres, sans espaces et sans charactères"
+                        }
+                    }
+                },
+                "BUTTONS": {
+                    "UPDATE": {
+                        "LABEL": "MODIFIER"
+                    },
+                    "CANCEL": {
+                        "LABEL": "ANNULER"
+                    },
+                    "SAVE": {
+                        "LABEL": "ENREGISTRER"
+                    }
+                }
+            }
+        },
+        "DIALOGS": {
+            "UPDATE_PROFILE_CONFIRMATION_DIALOG": {
+                "TITLE": "Confirmez l'action",
+                "MESSAGE": "Mettre à jour les informations de votre profil?"
+            },
+            "CANCEL_PROFILE_UPDATE_CONFIRMATION_DIALOG": {
+                "TITLE": "Confirmez l'action",
+                "MESSAGE": "Annuler la mise à jour des informations de votre profil?"
+            },
+            "RESET_PASSWORD_CONFIRMATION_DIALOG": {
+                "TITLE": "Confirmez l'action",
+                "MESSAGE": "Vous venez de réinitialiser votre mot de passe"
+            }
+        },
+        "TOASTS": {
+            "UPDATE_DRIVER_SUCCESS_TOAST": {
+                "TITLE": "Opération éffectuée avec succès",
+                "MESSAGE": "Votre profil a été mis à jour avec succès"
+            }
+        }
+    },
+    "DASHBOARD": {
+        "SUBHEADER": {
+            "ACTIVE_ROUTE": "TABLEAU DE BORD",
+            "ACTIONS": {}
+        },
+        "CONTENT": {
+            "DRIVERS_COUNT_CARD": {
+                "CARD_TITLE": "Chauffeurs",
+                "COUNT_ITEMS_LABELS": {
+                    "ENABLED": "Activé",
+                    "DISABLED": "Déactivé",
+                    "BLOCKED": "Bloqué",
+                    "WAITING": "En attente",
+                    "CONFIRMATION": "Confirmation",
+                    "REACTIVATION": "Réactivation",
+                    "INCOMPLETE": "Incomplet"
+                }
+            },
+            "CARS_COUNT_CARD": {
+                "CARD_TITLE": "Véhicules",
+                "COUNT_ITEMS_LABELS": {
+                    "ENABLED": "Activé",
+                    "DISABLED": "Déactivé",
+                    "BLOCKED": "Bloqué",
+                    "WAITING": "En attente",
+                    "EXPIRED": "Expiré",
+                    "REACTIVATION": "Réactivation",
+                    "INCOMPLETE": "Incomplet",
+                    "NOT_AVAILABLE": "Non disponible"
+                }
+            },
+            "BOOKING_COUNT_CARD": {
+                "CARD_TITLE": "Réservations",
+                "COUNT_ITEMS_LABELS": {
+                    "INSTANTANEOUS": "Instantanées",
+                    "PLANNED": "Planifiées"
+                }
+            },
+            "TURNOVER_COUNT_CARD": {
+                "CARD_TITLE": "Chiffre d’affaires",
+                "TOTAL_LABEL": "Total",
+                "COUNT_ITEMS_LABELS": {
+                    "CURRENT_YEAR": "Année actuelle",
+                    "CURRENT_MONTH": "Mois actuel",
+                    "CURRENT_WEEK": "Semaine actuelle",
+                    "LAST_24_HOURS": "Dernière 24 heures"
+                }
+            }
+        }
+    },
+    "DRIVERS": {
+        "DRIVERS_LIST": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "CHAUFFEURS",
+                "ACTIONS": {
+                    "BUTTONS": {
+                        "NEW_DRIVER": {
+                            "LABEL": "NOUVEAU CHAUFFEUR"
+                        },
+                        "DRIVER_DETAILS": {
+                            "LABEL": "DÉTAIL DU CHAUFFEUR"
+                        },
+                        "DRIVER_PRODUCTIVITY": {
+                            "LABEL": "RENDEMENT DU CHAUFFEUR"
+                        }
+                    }
+                }
+            },
+            "CONTENT": {
+                "FILTER": {
+                    "SEARCH_INPUT": {
+                        "PLACEHOLDER": "Rechercher..."
+                    },
+                    "ACCOUNT_STATUS_SELECT": {
+                        "PLACEHOLDER": "État du Compte"
+                    },
+                    "DRIVER_STATUS_SELECT": {
+                        "PLACEHOLDER": "État du Chauffeur"
+                    }
+                },
+                "DATA_TABLE": {
+                    "TABLE_HEADERS": {
+                        "FULL_NAME": "Nom Prénom",
+                        "RATING": "Note",
+                        "DRIVER_STATUS": "État du Chauffeur",
+                        "LAST_ACTIVE_TIME": "Dernière Activité",
+                        "ACCOUNT_STATUS": "État du Compte",
+                        "CREATED_AT": "Créé Le"
+                    },
+                    "NO_DATA_MESSAGE": "Pas de chauffeur..."
+                }
+            }
+        },
+        "ADD_DRIVER": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "NOUVEAU CHAUFFEUR",
+                "ACTIONS": {}
+            },
+            "CONTENT": {
+                "FORM": {
+                    "INPUTS": {
+                        "FULL_NAME": {
+                            "LABEL": "Nom et prénom",
+                            "PLACEHOLDER": "Nom et prénom",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "EMAIL": {
+                            "LABEL": "Adresse email",
+                            "PLACEHOLDER": "Adresse email",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire",
+                                "INVALID": "Adresse email invalide"
+                            }
+                        },
+                        "PASSWORD": {
+                            "LABEL": "Mot de passe",
+                            "PLACEHOLDER": "Mot de passe",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "PASSWORD_CONFIRMATION": {
+                            "LABEL": "Confirmation du mot de passe",
+                            "PLACEHOLDER": "Confirmation du mot de passe",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire",
+                                "DIFFERENT": "Ne correspond pas au mot de passe saisi"
+                            } 
+                        },
+                        "DATE_OF_BIRTH": {
+                            "LABEL": "Date de naissance",
+                            "PLACEHOLDER": "Date de naissance",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "TEL": {
+                            "LABEL": "Num. Tel.",
+                            "PLACEHOLDER": "Num. Tel.",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "TOWN": {
+                            "LABEL": "Pays",
+                            "PLACEHOLDER": "Pays",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "GOVERNORATE": {
+                            "LABEL": "Governorat",
+                            "PLACEHOLDER": "Governorat",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "ZIP_CODE": {
+                            "LABEL": "Code ZIP",
+                            "PLACEHOLDER": "Code ZIP",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "ADDRESS": {
+                            "LABEL": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "PROFILE_PICTURE": {
+                            "LABEL": "Photo du profile",
+                            "ERRORS": {}
+                        },
+                        "CIN_PICTURE": {
+                            "LABEL": "Photp du CIN",
+                            "ERRORS": {}
+                        },
+                        "DRIVER_LICENCE_PICTURE": {
+                            "LABEL": "Photo de licence du chauffeur",
+                            "ERRORS": {}
+                        },
+                        "PRO_CARD_PICTURE": {
+                            "LABEL": "Photo de la carte Pro",
+                            "ERRORS": {}
+                        },
+                        "BTHREE_PICTURE": {
+                            "LABEL": "Photo du B3",
+                            "ERRORS": {}
+                        },
+                        "MEDICAL_VISIT_PICTURE": {
+                            "LABEL": "Photo du visite médicale",
+                            "ERRORS": {}
+                        }
+                    },
+                    "BUTTONS": {
+                        "CANCEL": {
+                            "LABEL": "ANNULER"
+                        },
+                        "SUBMIT": {
+                            "LABEL": "AJOUTER UN CHAUFFEUR"
+                        }
+                    }
+                }
+            },
+            "DIALOGS": {
+                "ADD_DRIVER_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Ajouter un nouveau chauffeur?"
+                },
+                "CANCEL_DRIVER_ADD_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Annuler la création d'un nouveau chauffeur"
+                }
+            },
+            "TOASTS": {
+                "ADD_DRIVER_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Un nouveau chauffeur a été créé avec succès"
+                }
+            }
+        },
+        "DRIVER_DETAILS": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "DÉTAILS DU CHAUFFEUR",
+                "ACTIONS": {
+                    "BUTTONS": {
+                        "REACTIVATE_DRIVER": {
+                            "LABEL": "RÉACTIVATER LE CHAUFFEUR"
+                        },
+                        "BLOCK_DRIVER": {
+                            "LABEL": "BLOQUER LE CHAUFFER"
+                        }
+                    }
+                }
+            },
+            "CONTENT": {
+                "TEXT": {
+                    "TITLE": "Chauffeur",
+                    "RATING": "Note",
+                    "INFORMATIONS": "Informations",
+                    "DATE_OF_BIRTH": "Date de naissance",
+                    "TEL": "Num. Tel.",
+                    "TOWN": "Pays",
+                    "GOVERNORATE": "Governorat",
+                    "ZIP_CODE": "Code ZIP",
+                    "ADDRESS": "Adresse",
+                    "DOCUMENTS": "Documents",
+                    "CIN": "CIN",
+                    "DRIVER_LICENCE": "Licence du chauffeur",
+                    "PRO_CARD": "Carte pro",
+                    "BTHREE": "B3",
+                    "MEDICAL_VISIT": "Visite Médicale",
+                    "MISSING_INFO": "Non mentionné"
+                },
+                "FORM": {
+                    "INPUTS": {
+                        "FULL_NAME": {
+                            "LABEL": "Nom et prénom",
+                            "PLACEHOLDER": "Nom et prénom",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "DATE_OF_BIRTH": {
+                            "LABEL": "Date de naissance",
+                            "PLACEHOLDER": "Date de naissance",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "TEL": {
+                            "LABEL": "Num. Tel.",
+                            "PLACEHOLDER": "Num. Tel.",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "TOWN": {
+                            "LABEL": "Pays",
+                            "PLACEHOLDER": "Pays",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "GOVERNORATE": {
+                            "LABEL": "Governorat",
+                            "PLACEHOLDER": "Governorat",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "ZIP_CODE": {
+                            "LABEL": "Code ZIP",
+                            "PLACEHOLDER": "Code ZIP",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "ADDRESS": {
+                            "LABEL": "Adresse",
+                            "PLACEHOLDER": "Adresse",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "PROFILE_PICTURE": {
+                            "LABEL": "Photo du profile",
+                            "ERRORS": {}
+                        },
+                        "CIN_PICTURE": {
+                            "LABEL": "Photp du CIN",
+                            "ERRORS": {}
+                        },
+                        "DRIVER_LICENCE_PICTURE": {
+                            "LABEL": "Photo de licence du chauffeur",
+                            "ERRORS": {}
+                        },
+                        "PRO_CARD_PICTURE": {
+                            "LABEL": "Photo de la carte Pro",
+                            "ERRORS": {}
+                        },
+                        "BTHREE_PICTURE": {
+                            "LABEL": "Photo du B3",
+                            "ERRORS": {}
+                        },
+                        "MEDICAL_VISIT_PICTURE": {
+                            "LABEL": "Photo du visite médicale",
+                            "ERRORS": {}
+                        }
+                    },
+                    "BUTTONS": {
+                        "UPDATE": {
+                            "LABEL": "MODIFIER"
+                        },
+                        "CANCEL": {
+                            "LABEL": "ANNULER"
+                        },
+                        "SAVE": {
+                            "LABEL": "ENREGISTRER"
+                        }
+                    }
+                }
+            },
+            "DIALOGS": {
+                "UPDATE_DRIVER_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Mettre à jour les informations du chauffeur?"
+                },
+                "CANCEL_DRIVER_UPDATE_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Annuler la mise à jour des informations du chauffeur?"
+                },
+                "BLOCK_DRIVER_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Vous venez de bloquer le compte d'un chauffeur"
+                },
+                "REACTIVATE_DRIVER_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Vous venez de réactiver le compte d'un chauffeur"
+                }
+            },
+            "TOASTS": {
+                "UPDATE_DRIVER_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Les informations du chauffeur sont mises à jour avec succès"
+                },
+                "BLOCK_DRIVER_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Le compte du chauffeur est bloqué"
+                },
+                "REACTIVATE_DRIVER_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Le compte du chauffeur est réactivé"
+                }
+            }
+        },
+        "DRIVER_PRODUCTIVITY": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "RENDEMENT DU CHAUFFEUR",
+                "ACTIONS": {}
+            },
+            "CONTENT": {
+                "DRIVER_DETAILS_CARD": {
+                    "CARD_TITLE": "",
+                    "TITLE": "Chauffeur",
+                    "RATING": "Note",
+                    "MISSING_INFO": "Non mentionné"
+                },
+                "DRIVER_LOCALIZATION_MAP_CARD": {
+                    "CARD_TITLE": "Localisation du Chauffeur"
+                },
+                "DRIVER_TURNOVER_CARD": {
+                    "CARD_TITLE": "Chiffre d’affaires",
+                    "TOTAL_LABEL": "Total",
+                    "COUNT_ITEMS_LABELS": {
+                        "CURRENT_YEAR": "Année actuelle",
+                        "CURRENT_MONTH": "Mois actuel",
+                        "CURRENT_WEEK": "Semaine actuelle",
+                        "LAST_24_HOURS": "Dernière 24 heures"
+                    }
+                },
+                "DRIVER_BOOKING_COUNT_CARD": {
+                    "CARD_TITLE": "Réservations",
+                    "COUNT_ITEMS_LABELS": {
+                        "INSTANTANEOUS": "Instantanées",
+                        "PLANNED": "Planifiées"
+                    }
+                },
+                "DRIVER_BOOKING_HISTORY_DATA_TABLE_CARD": {
+                    "CARD_TITLE": "",
+                    "FILTER": {
+                        "SEARCH_INPUT": {
+                            "PLACEHOLDER": "Rechercher..."
+                        },
+                        "BOOKING_TYPE_SELECT": {
+                            "PLACEHOLDER": "Type de Réservation"
+                        },
+                        "PAY_METHOD_SELECT": {
+                            "PLACEHOLDER": "Méthode de Paiement"
+                        },
+                        "BOOKING_STATUS_SELECT": {
+                            "PLACEHOLDER": "État de Réservation"
+                        }
+                    },
+                    "DATA_TABLE": {
+                        "TABLE_HEADERS": {
+                            "BOOKING_TYPE": "Type de Réservation",
+                            "EFFECTIVE_BEGIN_TIME": "Temps Éffectif de Début",
+                            "EFFECTIVE_PRICE": "Prix Éffectif",
+                            "PAY_METHOD": "Méthode de Paiement",
+                            "BOOKING_STATUS": "État de Réservation"
+                        },
+                        "NO_DATA_MESSAGE": "Pas d'historique de réservation..."
+                    }
+                },
+                "BOOKING_HISTORY_MAP_CARD": {
+                    "CARD_TITLE": "",
+                    "BOOKING_TYPE": "Type de réservation",
+                    "BOOKING_STATUS": "État de réservation",
+                    "ESTIMATED_BEGIN_TIME": "Temps estimé de début",
+                    "EFFECTIVE_BEGIN_TIME": "Temps éffectif de début",
+                    "ESTIMATED_PRICE": "Prix estimé",
+                    "EFFECTIVE_PRICE": "Prix éffectif",
+                    "PAY_METHOD": "Méthode de Paiement",
+                    "DRIVER_RATING": "Note",
+                    "MISSING_INFO": "Non mentionné"
+                }
+            }
+        }
+    },
+    "CARS": {
+        "CARS_LIST": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "VÉHICULES",
+                "ACTIONS": {
+                    "BUTTONS": {
+                        "NEW_CAR": {
+                            "LABEL": "NOUVEAU VÉHICULE"
+                        },
+                        "CAR_DETAILS": {
+                            "LABEL": "DÉTAILS DU VÉHICULE"
+                        }
+                    }
+                }
+            },
+            "CONTENT": {
+                "FILTER": {
+                    "SEARCH_INPUT": {
+                        "PLACEHOLDER": "Rechercher..."
+                    },
+                    "CAR_STATUS_SELECT": {
+                        "PLACEHOLDER": "État du véhicule"
+                    }
+                },
+                "DATA_TABLE": {
+                    "TABLE_HEADERS": {
+                        "BRAND": "Marque",
+                        "MODEL": "Modèle",
+                        "YEAR": "Année",
+                        "CATEGORY": "Catégorie",
+                        "COLOR": "Couleur",
+                        "REGISTRATION": "Enregistrement",
+                        "CAR_STATUS": "État du Véhicule"
+                    },
+                    "NO_DATA_MESSAGE": "Pas de véhicules..."
+                }
+            }
+        },
+        "ADD_CAR": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "NOUVEAU VÉHICULE",
+                "ACTIONS": {}
+            },
+            "CONTENT": {
+                "FORM": {
+                    "INPUTS": {
+                        "CAR_CATEGORY": {
+                            "LABEL": "Catégorie du véhicule",
+                            "PLACEHOLDER": "Catégorie du véhicule",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "BRAND": {
+                            "LABEL": "Marque",
+                            "PLACEHOLDER": "Marque",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "MODEL": {
+                            "LABEL": "Modèle",
+                            "PLACEHOLDER": "Modèle",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "YEAR": {
+                            "LABEL": "Année",
+                            "PLACEHOLDER": "Année",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "COLOR": {
+                            "LABEL": "Couleur",
+                            "PLACEHOLDER": "Couleur",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "REGISTRATION": {
+                            "LABEL": "Enregistrement",
+                            "PLACEHOLDER": "Enregistrement",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "GRAY_CARD_PICTURE": {
+                            "LABEL": "Photo de la carte grise",
+                            "ERRORS": {}
+                        },
+                        "GRAY_CARD_LIMIT_DATE": {
+                            "LABEL": "Date limite de la carte grise",
+                            "PLACEHOLDER": "Date limite de la carte grise",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "CAR_INSURANCE_PICTURE": {
+                            "LABEL": "Photo de l'assurance de la véhicule",
+                            "ERRORS": {}
+                        },
+                        "CAR_INSURANCE_LIMIT_DATE": {
+                            "LABEL": "Date limite de l'assurance de la véhicule",
+                            "PLACEHOLDER": "Date limite de l'assurance de la véhicule",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "PROFESSIONAL_INSURANCE_PICTURE": {
+                            "LABEL": "Photo de l'assurance professionnel",
+                            "ERRORS": {}
+                        },
+                        "PROFESSIONAL_INSURANCE_LIMIT_DATE": {
+                            "LABEL": "Date limite de l'assurance professionnel",
+                            "PLACEHOLDER": "Date limite de l'assurance professionnel",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        }
+                    },
+                    "BUTTONS": {
+                        "CANCEL": {
+                            "LABEL": "ANNULER"
+                        },
+                        "SUBMIT": {
+                            "LABEL": "AJOUTER UN VÉHICULE"
+                        }
+                    }
+                },
+                "TEXT": {
+                    "NEW_CAR_REFERENCE": "Vous ne trouvez pas la référence du votre véhicule? Créez là!"
+                }
+            },
+            "DIALOGS": {
+                "ADD_CAR_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Ajouter un nouveau véhicule?"
+                },
+                "CANCEL_CAR_ADD_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Annuler la création d'un nouveau véhicule"
+                }
+            },
+            "TOASTS": {
+                "ADD_CAR_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Un nouveau véhicule a été créé avec succès"
+                }
+            }
+        },
+        "CAR_DETAILS": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "DÉTAILS DU VÉHICULE",
+                "ACTIONS": {
+                    "BUTTONS": {
+                        "REACTIVATE_CAR": {
+                            "LABEL": "RÉACTIVER LE VÉHICULE"
+                        },
+                        "BLOCK_CAR": {
+                            "LABEL": "BLOQUER LE VÉHICULE"
+                        }
+                    }
+                }
+            },
+            "CONTENT": {
+                "TEXT": {
+                    "INFORMATIONS": "Informations",
+                    "CAR_CATEGORY": "Catégorie du véhicule",
+                    "BRAND": "Marque",
+                    "MODEL": "Modèle",
+                    "YEAR": "Année",
+                    "COLOR": "Couleur",
+                    "REGISTRATION": "Enregistrement",
+                    "DOCUMENTS": "Documents",
+                    "GRAY_CARD_PICTURE": "Photo de la carte grise",
+                    "GRAY_CARD_LIMIT_DATE": "Date limite de la carte grise",
+                    "CAR_INSURANCE_PICTURE": "Photo de l'assurance de la véhicule",
+                    "CAR_INSURANCE_LIMIT_DATE": "Date limite de l'assurance de la véhicule",
+                    "PROFESSIONAL_INSURANCE_PICTURE": "Photo de l'assurance professionnel",
+                    "PROFESSIONAL_INSURANCE_LIMIT_DATE": "Date limite de l'assurance professionnel",
+                    "MISSING_INFO": "Non mentionné"
+                },
+                "FORM": {
+                    "INPUTS": {
+                        "CAR_CATEGORY": {
+                            "LABEL": "Catégorie du véhicule",
+                            "PLACEHOLDER": "Catégorie du véhicule",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "BRAND": {
+                            "LABEL": "Marque",
+                            "PLACEHOLDER": "Marque",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "MODEL": {
+                            "LABEL": "Modèle",
+                            "PLACEHOLDER": "Modèle",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "YEAR": {
+                            "LABEL": "Année",
+                            "PLACEHOLDER": "Année",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "COLOR": {
+                            "LABEL": "Couleur",
+                            "PLACEHOLDER": "Couleur",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "REGISTRATION": {
+                            "LABEL": "Enregistrement",
+                            "PLACEHOLDER": "Enregistrement",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "GRAY_CARD_PICTURE": {
+                            "LABEL": "Photo de la carte grise",
+                            "ERRORS": {}
+                        },
+                        "GRAY_CARD_LIMIT_DATE": {
+                            "LABEL": "Date limite de la carte grise",
+                            "PLACEHOLDER": "Date limite de la carte grise",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "CAR_INSURANCE_PICTURE": {
+                            "LABEL": "Photo de l'assurance de la véhicule",
+                            "ERRORS": {}
+                        },
+                        "CAR_INSURANCE_LIMIT_DATE": {
+                            "LABEL": "Date limite de l'assurance de la véhicule",
+                            "PLACEHOLDER": "Date limite de l'assurance de la véhicule",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "PROFESSIONAL_INSURANCE_PICTURE": {
+                            "LABEL": "Photo de l'assurance professionnel",
+                            "ERRORS": {}
+                        },
+                        "PROFESSIONAL_INSURANCE_LIMIT_DATE": {
+                            "LABEL": "Date limite de l'assurance professionnel",
+                            "PLACEHOLDER": "Date limite de l'assurance professionnel",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        }
+                    },
+                    "BUTTONS": {
+                        "UPDATE": {
+                            "LABEL": "MODIFIER"
+                        },
+                        "CANCEL": {
+                            "LABEL": "ANNULER"
+                        },
+                        "SAVE": {
+                            "LABEL": "ENREGISTRER"
+                        }
+                    }
+                }
+            },
+            "DIALOGS": {
+                "UPDATE_CAR_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Mettre à jour les informations du véhicule?"
+                },
+                "CANCEL_CAR_UPDATE_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Annuler la mise à jour des informations du véhicule?"
+                },
+                "BLOCK_CAR_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Vous venez de bloquer un véhicule"
+                },
+                "REACTIVATE_CAR_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Vous venez de réactiver un véhicule"
+                }
+            },
+            "TOASTS": {
+                "UPDATE_CAR_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Les informations du véhicule sont mises à jour avec succès"
+                },
+                "BLOCK_CAR_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Le véhicule est bloqué"
+                },
+                "REACTIVATE_CAR_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Le véhicule est réactivé"
+                }
+            }
+        }
+    },
+    "MIGRATION_REQUESTS": {
+        "MIGRATION_REQUESTS_LIST": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "REQUÊTES DE MIGRATION",
+                "ACTIONS": {
+                    "BUTTONS": {
+                        "NEW_MIGRATION_REQUEST": {
+                            "LABEL": "NOUVELLE REQUÊTE DE MIGRATION"
+                        },
+                        "MIGRATION_REQUEST_DETAILS": {
+                            "LABEL": "DÉTAILS DU REQUÊTE DE MIGRATION"
+                        }
+                    }
+                }
+            },
+            "CONTENT": {
+                "TABS": {
+                    "RECEIVED_TAB": {
+                        "TITLE": "Reçues"
+                    },
+                    "WAITING_TAB": {
+                        "TITLE": "En Attentes"
+                    },
+                    "SENT_TAB": {
+                        "TITLE": "Envoyées"
+                    }
+                },
+                "RECEIVED_MIGRATION_REQUESTS": {
+                    "FILTER": {
+                        "SEARCH_INPUT": {
+                            "PLACEHOLDER": "Rechercher..."
+                        }
+                    },
+                    "DATA_TABLE": {
+                        "TABLE_HEADERS": {
+                            "PARTNER_TO_FULL_NAME": "Nom du Partenaire",
+                            "DRIVER_FULL_NAME": "Nom du Chauffeur",
+                            "SUBJECT": "Sujet",
+                            "MIGRATION_REQUEST_STATUS": "État du Rêquete de Migration"
+                        },
+                        "NO_DATA_MESSAGE": "Pas de rêquetes de migration..."
+                    }
+                },
+                "WAITING_MIGRATION_REQUESTS": {
+                    "FILTER": {
+                        "SEARCH_INPUT": {
+                            "PLACEHOLDER": "Rechercher..."
+                        }
+                    },
+                    "DATA_TABLE": {
+                        "TABLE_HEADERS": {
+                            "PARTNER_TO_FULL_NAME": "Nom du Partenaire",
+                            "DRIVER_FULL_NAME": "Nom du Chauffeur",
+                            "SUBJECT": "Sujet"
+                        },
+                        "NO_DATA_MESSAGE": "Pas de rêquetes de migration..."
+                    }
+                },
+                "SENT_MIGRATION_REQUESTS": {
+                    "FILTER": {
+                        "SEARCH_INPUT": {
+                            "PLACEHOLDER": "Rechercher..."
+                        }
+                    },
+                    "DATA_TABLE": {
+                        "TABLE_HEADERS": {
+                            "PARTNER_FROM_FULL_NAME": "Nom du Partenaire",
+                            "DRIVER_FULL_NAME": "Nom du Chauffeur",
+                            "SUBJECT": "Sujet",
+                            "MIGRATION_REQUEST_STATUS": "État du Rêquete de Migration"
+                        },
+                        "NO_DATA_MESSAGE": "Pas de rêquetes de migration..."
+                    }
+                }
+            },
+            "DIALOGS": {
+                "ACCEPT_MIGRATION_REQUEST_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Vous venez d'accepter un requête de migration"
+                },
+                "REFUSE_MIGRATION_REQUEST_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Vous venez de réfuser un requête de migration"
+                },
+                "CANCEL_MIGRATION_REQUEST_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Vous venez d'annuler un requête de migration"
+                }
+            },
+            "TOASTS": {
+                "ACCEPT_MIGRATION_REQUEST_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "La requête de migration est accéptée"
+                },
+                "REFUSE_MIGRATION_REQUEST_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "La requête de migration est réfusée"
+                },
+                "CANCEL_MIGRATION_REQUEST_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "La requête de migration est annulée"
+                },
+                "CANCEL_MIGRATION_REQUEST_UNSUPORTED_TOAST": {
+                    "TITLE": "Seulement les requêtes de migration en attentes peuvent être annulées",
+                    "MESSAGE": ""
+                }
+            }
+        },
+        "ADD_MIGRATION_REQUEST": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "NOUVELLE REQUÊTE DE MIGRATION",
+                "ACTIONS": {}
+            },
+            "CONTENT": {
+                "FORM": {
+                    "INPUTS": {
+                        "SUBJECT": {
+                            "LABEL": "Sujet",
+                            "PLACEHOLDER": "Sujet",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "CONTENT": {
+                            "LABEL": "Contenu",
+                            "PLACEHOLDER": "Contenu",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "PARTNER_FROM": {
+                            "LABEL": "Identificateur du partenaire",
+                            "PLACEHOLDER": "Identificateur du partenaire",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "DRIVER": {
+                            "LABEL": "Identificateur du chauffeur",
+                            "PLACEHOLDER": "Identificateur du chauffeur",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        }
+                    },
+                    "BUTTONS": {
+                        "CANCEL": {
+                            "LABEL": "ANNULER"
+                        },
+                        "SUBMIT": {
+                            "LABEL": "AJOUTER UNE REQUÊTE DE MIGRATION"
+                        }
+                    }
+                }
+            },
+            "DIALOGS": {
+                "ADD_MIGRATION_REQUEST_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Ajouter une nouvelle requête de migration?"
+                },
+                "CANCEL_MIGRATION_REQUEST_ADD_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Annuler la création d'une nouvelle requête de migration?"
+                }
+            },
+            "TOASTS": {
+                "ADD_MIGRATION_REQUEST_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Une nouvelle requête de migration a été créée avec succès"
+                }
+            }
+        },
+        "MIGRATION_REQUEST_DETAILS": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "DÉTAILS DU REQUÊTE DE MIGRATION",
+                "ACTIONS": {}
+            },
+            "CONTENT": {
+                "TEXT": {
+                    "SUBJECT": "Sujet",
+                    "CONTENT": "Contenu",
+                    "PARTNER_FULL_NAME": "Nom du partenaire",
+                    "DRIVER_FULL_NAME": "Nom du chauffeur",
+                    "MIGRATION_REQUEST_STATUS": "État du requête de migration",
+                    "MISSING_INFO": "Non mentionné"
+                },
+                "BUTTONS": {
+                    "ACCEPT": {
+                        "LABEL": "ACCEPTER"
+                    },
+                    "REFUSE": {
+                        "LABEL": "RÉFUSER"
+                    },
+                    "CANCEL": {
+                        "LABEL": "ANNULER"
+                    },
+                    "BACK": {
+                        "LABEL": "RETOUR"
+                    }
+                }
+            },
+            "DIALOGS": {
+                "ACCEPT_MIGRATION_REQUEST_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirm action",
+                    "MESSAGE": "You are attempting to accept a migration request"
+                },
+                "REFUSE_MIGRATION_REQUEST_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirm action",
+                    "MESSAGE": "You are attempting to refuse a migration request"
+                },
+                "CANCEL_MIGRATION_REQUEST_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirm action",
+                    "MESSAGE": "You are attempting to cancel a migration request"
+                }
+            },
+            "TOASTS": {
+                "ACCEPT_MIGRATION_REQUEST_SUCCESS_TOAST": {
+                    "TITLE": "Operation succeeded",
+                    "MESSAGE": "Migration request accepted"
+                },
+                "REFUSE_MIGRATION_REQUEST_SUCCESS_TOAST": {
+                    "TITLE": "Operation succeeded",
+                    "MESSAGE": "Migration request refused"
+                },
+                "CANCEL_MIGRATION_REQUEST_SUCCESS_TOAST": {
+                    "TITLE": "Operation succeeded",
+                    "MESSAGE": "Migration request canceled"
+                }
+            }
+        }
+    },
+    "COMPLAINTS": {
+        "ADD_COMPLAINT": {
+            "SUBHEADER": {
+                "ACTIVE_ROUTE": "PLAINTES",
+                "ACTIONS": {}
+            },
+            "CONTENT": {
+                "FORM": {
+                    "INPUTS": {
+                        "SUBJECT": {
+                            "LABEL": "Sujet",
+                            "PLACEHOLDER": "Sujet",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        },
+                        "CONTENT": {
+                            "LABEL": "Contenu",
+                            "PLACEHOLDER": "Contenu",
+                            "ERRORS": {
+                                "REQUIRED": "Ce champ est nécessaire"
+                            }
+                        }
+                    },
+                    "BUTTONS": {
+                        "CANCEL": {
+                            "LABEL": "CANCEL"
+                        },
+                        "SUBMIT": {
+                            "LABEL": "ENVOYER PLAINTE"
+                        }
+                    }
+                }
+            },
+            "DIALOGS": {
+                "ADD_COMPLAINT_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Envoyer la plainte?"
+                },
+                "CANCEL_COMPLAINT_ADD_CONFIRMATION_DIALOG": {
+                    "TITLE": "Confirmez l'action",
+                    "MESSAGE": "Annuler l'envoi de la plainte?"
+                }
+            },
+            "TOASTS": {
+                "ADD_COMPLAINT_SUCCESS_TOAST": {
+                    "TITLE": "Opération éffectuée avec succès",
+                    "MESSAGE": "Votre plainte a été envoyée avec succès"
+                }
+            }
+        }
+    },
+    "GLOBAL": {
+        "TOTAL_LABEL": "Total",
+        "DIALOG": {
+            "DIALOG_ACTIONS": {
+                "PROCEED": "CONTINUER",
+                "CANCEL": "ANNULER"
+            }
+        },
+        "TOASTS": {
+            "INTERNAL_ERROR_TOAST": {
+                "TITLE": "Erreur interne",
+                "MESSAGE": "Une erreur de notre part est survenue, veuillez patienter"
+            },
+            "UNAUTHORIZED_ERROR_TOAST": {
+                "TITLE": "Echec d'authentification",
+                "MESSAGE": "Votre session a expiré, vous devez vous reconnecter"
+            }
+        }
+    },
+    "DATA": {}
+}

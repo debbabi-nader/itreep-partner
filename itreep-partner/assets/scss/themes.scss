@@ -1,0 +1,45 @@
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/default';
+
+
+$nb-themes: nb-register-theme((
+    
+    color-danger: #BE3235,
+
+    font-primary: Roboto,
+    font-secondary: Exo,
+    
+    color-fg-highlight: #BE3235,
+
+    link-color: #BE3235,
+    link-color-hover: #BE3235,
+    link-color-visited: #BE3235,
+    
+    header-height: 4rem,
+    
+    sidebar-width: 14rem,
+
+    menu-icon-font-size: 1.2rem,
+    menu-icon-active-color: color-danger,
+
+    btn-cursor: pointer,
+
+    context-menu-active-bg: color-fg-highlight,
+    context-menu-border: color-fg-highlight,
+    context-menu-shadow: shadow,
+
+    form-control-selected-border-color: #dadfe6,
+
+    datepicker-border: color-fg-highlight,
+
+    calendar-selected-item-bg: color-fg-highlight,
+    calendar-hover-item-bg: color-fg-highlight,
+    calendar-active-item-bg: color-fg-highlight,
+
+    smart-table-bg-active: separator,
+    smart-table-paging-bg-active: color-fg-highlight,
+    smart-table-paging-hover: separator,
+
+    route-tabs-selected: color-fg-highlight
+
+), default, default);
