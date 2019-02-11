@@ -284,7 +284,9 @@
                 "PLACEHOLDER": "Languages",
                 "OPTIONS": {
                     "ENGLISH_OPTION": "English",
-                    "FRENCH_OPTION": "French"
+                    "FRENCH_OPTION": "French",
+                    "SPANISH_OPTION": "Spanish",
+                    "ARABIC_OPTION": "Arabic"
                 }
             }
         }
@@ -453,9 +455,12 @@
             },
             "BOOKING_COUNT_CARD": {
                 "CARD_TITLE": "Bookings",
+                "TOTAL_LABEL": "Total",
                 "COUNT_ITEMS_LABELS": {
-                    "INSTANTANEOUS": "Instantaneous",
-                    "PLANNED": "Planned"
+                    "CURRENT_YEAR": "Current year",
+                    "CURRENT_MONTH": "Current month",
+                    "CURRENT_WEEK": "Current week",
+                    "LAST_24_HOURS": "Last 24 hours"
                 }
             },
             "TURNOVER_COUNT_CARD": {
@@ -827,9 +832,12 @@
                 },
                 "DRIVER_BOOKING_COUNT_CARD": {
                     "CARD_TITLE": "Bookings",
+                    "TOTAL_LABEL": "Total",
                     "COUNT_ITEMS_LABELS": {
-                        "INSTANTANEOUS": "Instantaneous",
-                        "PLANNED": "Planned"
+                        "CURRENT_YEAR": "Current year",
+                        "CURRENT_MONTH": "Current month",
+                        "CURRENT_WEEK": "Current week",
+                        "LAST_24_HOURS": "Last 24 hours"
                     }
                 },
                 "DRIVER_BOOKING_HISTORY_DATA_TABLE_CARD": {
